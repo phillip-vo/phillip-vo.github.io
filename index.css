@@ -85,18 +85,18 @@ body, html {
 
 @media only screen and (max-width: 600px) {
     .blue-landscape {
-    background-image: url("images/blue-landscape-small.jpg");
+        background-image: url("images/blue-landscape-small.jpg");
     }
     
     .dusk-landscape {
-    background-image: url("images/dusk-landscape-small.jpg");
+        background-image: url("images/dusk-landscape-small.jpg");
     }
     
     .green-landscape {
-    background-image: url("images/green-landscape-small.jpg");
+        background-image: url("images/green-landscape-small.jpg");
     }
     
     .pink-landscape {
-    background-image: url("images/pink-landscape-small.jpg");
+        background-image: url("images/pink-landscape-small.jpg");
     }
 }
