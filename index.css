@@ -23,7 +23,6 @@ body, html {
 .parallax {
     /* Set a specific height */
     height: 100%;
-    width: auto;
 
     position: relative;
 
