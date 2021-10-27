@@ -86,17 +86,25 @@ body, html {
 @media only screen and (max-width: 800px) {
     .blue-landscape {
         background-image: url("images/blue-landscape-small.jpg");
+        width: 100%;
+        height: auto;
     }
     
     .dusk-landscape {
         background-image: url("images/dusk-landscape-small.jpg");
+        width: 100%;
+        height: auto;
     }
     
     .green-landscape {
         background-image: url("images/green-landscape-small.jpg");
+        width: 100%;
+        height: auto;
     }
     
     .pink-landscape {
         background-image: url("images/pink-landscape-small.jpg");
+        width: 100%;
+        height: auto;
     }
 }
