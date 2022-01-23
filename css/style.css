@@ -176,6 +176,7 @@ header {
 .nav__link {
   text-decoration: none;
   color: var(--clr-light);
+  font-size: 1.5em;
 }
 
 .nav__link--text {
@@ -316,6 +317,7 @@ header {
   .nav__link {
     text-decoration: none;
     color: var(--clr-light);
+    font-size: 1em;
   }
 }
 
