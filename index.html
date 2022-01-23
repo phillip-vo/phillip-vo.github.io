@@ -1,12 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phillip Vo</title>
-</head>
-<body>
-    
-</body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header and Navigation -->
+    <header>
+      <div class="logo">
+        <img src="img/web-coding-logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span id="hamburger-toggle" class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <img src="img/web-coding-logo-white.png" alt="" class="logo-light" />
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link"
+              ><i class="fas fa-home fa-lg"></i><br />
+              <span class="nav__link--text light-color">Home</span></a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link"
+              ><i class="fas fa-briefcase fa-lg"></i><br />
+              <span class="nav__link--text light-color">Projects</span></a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="fas fa-laptop-code fa-lg"></i><br />
+              <span class="nav__link--text light-color">Skills</span></a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link"
+              ><i class="fas fa-address-card fa-lg"></i><br />
+              <span class="nav__link--text light-color">About</span></a
+            >
+          </li>
+          <li class="nav__item arrow-down">
+            <i class="fas fa-chevron-down fa-lg accent-color"></i>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Introduction section -->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+          Hi, I'm <strong>Phillip Vo</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img
+          src="img/man-with-blazer-filled.png"
+          alt="Illustration of man on laptop"
+          class="intro__img"
+        />
+        <p class="intro__text">
+          A
+          <strong class="accent-color">Front-End Web Developer</strong>
+          passionate about creating interactive applications and experiences on
+          the web.
+        </p>
+        <div class="social-resume">
+          <a href="#" class="btn__resume">Resume</a>
+          <ul class="social-list social__list--intro">
+            <li class="social-list__item">
+              <a href="http://github.com" class="social-list__link">
+                <i class="fab fa-github-square fa-2x"></i>
+              </a>
+            </li>
+            <li class="social-list__item">
+              <a href="https://linkedin.com" class="social-list__link">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="my-projects" id="projects">
+        <h2 class="section__title section__title--projects">Projects</h2>
+        <div class="projects">
+          <div class="project">
+            <div class="project__item--container">
+              <a href="#" class="project__item">
+                <img
+                  src="img/project1.jpg"
+                  alt="Project image"
+                  class="project__img"
+                />
+              </a>
+              <span class="image__text--centered">Coming Soon</span>
+            </div>
+            <h3 class="accent-color">Project Name</h3>
+            <p class="light-color">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#"><span>Live</span></a>
+            <a href="#"><span>Repo</span></a>
+          </div>
+          <!-- project -->
+          <div class="project">
+            <div class="project__item--container">
+              <a href="#" class="project__item">
+                <img
+                  src="img/project2.jpg"
+                  alt="Project image"
+                  class="project__img"
+                />
+              </a>
+              <span class="image__text--centered">Coming Soon</span>
+            </div>
+            <h3 class="accent-color">Project Name</h3>
+            <p class="light-color">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#"><span>Live</span></a>
+            <a href="#"><span>Repo</span></a>
+          </div>
+          <!-- project -->
+          <div class="project">
+            <div class="project__item--container">
+              <a href="#" class="project__item">
+                <img
+                  src="img/project3.jpg"
+                  alt="Project image"
+                  class="project__img"
+                />
+              </a>
+              <span class="image__text--centered">Coming Soon</span>
+            </div>
+            <h3 class="accent-color">Project Name</h3>
+            <p class="light-color">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#"><span>Live</span></a>
+            <a href="#"><span>Repo</span></a>
+          </div>
+          <!-- project -->
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">Skills</h2>
+        <div class="skills-container">
+          <div class="circle">
+            <div class="circle-value">
+              <i class="fab fa-html5 fa-3x html-color"></i>
+            </div>
+            <span class="circle-label">HTML</span>
+          </div>
+
+          <div class="circle">
+            <div class="circle-value">
+              <i class="fab fa-css3-alt fa-3x css-color"></i>
+            </div>
+            <span class="circle-label">CSS</span>
+          </div>
+
+          <div class="circle">
+            <div class="circle-value">
+              <i class="fab fa-js fa-3x javascript-color"></i>
+            </div>
+            <span class="circle-label">JavaScript</span>
+          </div>
+
+          <div class="circle">
+            <div class="circle-value">
+              <i class="fab fa-react fa-3x react-color"></i>
+            </div>
+            <span class="circle-label">React</span>
+          </div>
+
+          <div class="circle">
+            <div class="circle-value">
+              <i class="fab fa-git-alt fa-3x git-color"></i>
+            </div>
+            <span class="circle-label">Git</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about light-color">
+          Who I am
+        </h2>
+        <p class="section__subtitle section__subtitle--about">
+          Designer & developer based out of Dallas
+        </p>
+
+        <div class="about-me__body light-color">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <img
+          src="img/boy-sitting-on-legs.png"
+          alt="Boy sitting on legs illustration"
+          class="about-me__img"
+        />
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <a href="mailto:philvo1991@gmail.com" class="footer__link accent-color"
+          >philvo1991@gmail.com</a
+        >
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a href="http://github.com" class="social-list__link">
+              <i class="fab fa-github-square fa-2x dark-color"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a href="https://linkedin.com" class="social-list__link">
+              <i class="fab fa-linkedin fa-2x dark-color"></i>
+            </a>
+          </li>
+        </ul>
+        <span class="pablo">Illustrations by Pablo Stanley</span>
+      </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
